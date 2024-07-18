@@ -4,11 +4,11 @@
 
 ## Problem Statement
 
-This report helps the users understand flight delay and cancellation better. It helps the users to select best airline and best airport from report with less delay & cancellation. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
+This report helps users understand flight delays and cancellations better. It allows the users to select the best airline and airport from the report with fewer delays & cancellations. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
 
-Since, percentage of arrival delay (almost 36.5 %) of total flights & percentage of departure delay (around 37 %), thus in all they must work on improving their services. 
+Since, the percentage of arrival delay (almost 36.5 %) of total flights & percentage of departure delay (around 37 %), thus in all they must work on improving their services. 
 
-Also since average delay in arrival is 5 minutes approximately & departure is 10 minutes approximately, thus they must try to reduce it.
+Also since the average arrival delay is approximately 5 minutes & departure is approximately 10 minutes, thus they must try to reduce it.
 
 
 ### Steps followed 
