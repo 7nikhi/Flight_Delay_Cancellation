@@ -4,7 +4,7 @@
 
 ## Problem Statement
 
-This report helps the users understand flight delay and cancellation better. It helps the airlines know if their customers are satisfied with their services. Through different ratings, they get to know their improvement area, & thus they can improve their services by identifying these area. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
+This report helps the users understand flight delay and cancellation better. It helps the users to select best airline and best airport from report with less delay & cancellation. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
 
 Since, percentage of arrival delay (almost 36.5 %) of total flights & percentage of departure delay (around 37 %), thus in all they must work on improving their services. 
 
