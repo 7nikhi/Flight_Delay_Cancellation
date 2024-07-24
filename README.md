@@ -4,7 +4,7 @@
 
 ## Problem Statement
 
-This report helps users understand flight delays and cancellations better. It allows the users to select the best airline and airport from the report with fewer delays & cancellations. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
+This report helps users understand flight delays and cancellations better. It allows the users to select the best airline and airport from the report with fewer delays & cancellations. It also lets them know the average delay & departure time, with the insights gained from this report, users can choose airlines and airports that minimize departure and arrival delays by addressing the underlying factors causing these issues.
 
 Since, the percentage of arrival delay (almost 36.5 %) of total flights & percentage of departure delay (around 37 %), thus in all they must work on improving their services. 
 
@@ -16,15 +16,28 @@ Also since the average arrival delay is approximately 5 minutes & departure is a
 - Step 1 : Load data into Power BI Desktop, dataset is a csv file.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 - Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
-- Step 4 : It was observed that in none of the columns errors & empty values were present except column named "Arrival Delay".
-- Step 5 : For calculating average delay time, null values were not taken into account as only less than 1% values are null in this column(i.e column named "Arrival Delay") 
-- Step 6 : In the report view, under the view tab, theme was selected.
-- Step 7 : Since the data contains various ratings, thus in order to represent ratings, a new visual was added using the three ellipses in the visualizations pane in report view. 
-- Step 8 : Visual filters (Slicers) were added for four fields named "Class", "Customer Type", "Gate Location" & "Type of travel".
-- Step 9 : Two card visuals were added to the canvas, one representing average departure delay in minutes & other representing average arrival delay in minutes.
-           Using visual level filter from the filters pane, basic filtering was used & null values were unselected for consideration into average calculation.
+- Step 4 : During the ETL process for Flights, Airlines, and Airports data, we identified issues such as incomplete records, null values, and irrelevant information. To ensure the data is ready for analysis and reporting, we performed transformations using Power Query Editor. This optimization ensures that our data is clean, complete, and structured for effective analysis and reporting purposes.
+- Step 5 : In the model view of Power BI, we have established both active and inactive relationships between the Flights table and the Airline/Airport tables. This setup enables us to utilize measures with these inactive relationships as well. This approach provides flexibility in data analysis, allowing us to apply different perspectives and filters to our calculations as needed, thereby optimizing our ability to derive insights
+- Step 6 : To calculate metrics such as average arrival delay time, average departure delay time, total flights, number of arrival delays, number of departure delays, percentage of arrival delays, percentage of departure delays, and cancellation rate, we excluded null values from the "Arrival Delay" column, "Departure Delay" column as these represent less than 1% of the total data. This ensures our analysis is based on complete and reliable information for accurate insights.
+- Step 7 : In the report view, under the view tab, theme was selected.
+- Step 8 : The new visualizations added using the three ellipses in the report view provide users with enhanced insights into various metrics related to airlines and airports. These visuals are designed to facilitate a deeper understanding of the data, enabling users to analyze key performance indicators such as arrival and departure delays, cancellation rates, total flights, and percentages of delays. By leveraging these visuals, users can make informed decisions based on comprehensive and visually represented data, leading to more effective strategies and actions.
+- Step 9 : Visual filters (Slicers) were added for four fields named "Country", "State", "City", "Airline" & "Airport".
+- Step 10 : Six card visuals have been added to the canvas, each highlighting crucial metrics for airlines and airports:
+
+           Total Flights: Shows the total number of flights recorded.
            
-           Although, by default, while calculating average, blank values are ignored.
+           Average Departure Delay (Minutes): Displays the average delay in minutes for departures.
+           
+           Average Arrival Delay (Minutes): Indicates the average delay in minutes for arrivals.
+           
+           Percentage of Arrival Delay: Represents the percentage of flights that experience arrival delays.
+           
+           Percentage of Departure Delay: Shows the percentage of flights that experience departure delays.
+           
+           Cancellation Rate: Displays the rate of flight cancellations as a percentage of total flights scheduled.
+
+           These card visuals provide a quick snapshot of key performance indicators, allowing users to swiftly assess performance, identify trends, and make data-driven decisions to improve operational efficiency and passenger satisfaction.
+           
 - Step 10 : A bar chart was also added to the report design area representing the number of satisfied & neutral/unsatisfied customers. While creating this visual, field named "Gender" was also added to the Legends bucket, thus number of customers are also seggregated according the gender. 
 - Step 11 : Ratings Visual was used to represent different ratings mentioned below,
 
