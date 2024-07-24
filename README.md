@@ -38,56 +38,11 @@ Also since the average arrival delay is approximately 5 minutes & departure is a
 
            These card visuals provide a quick snapshot of key performance indicators, allowing users to swiftly assess performance, identify trends, and make data-driven decisions to improve operational efficiency and passenger satisfaction.
            
-- Step 10 : A bar chart was also added to the report design area representing the number of satisfied & neutral/unsatisfied customers. While creating this visual, field named "Gender" was also added to the Legends bucket, thus number of customers are also seggregated according the gender. 
-- Step 11 : Ratings Visual was used to represent different ratings mentioned below,
-
-  (a) Baggage Handling
-
-  (b) Check-in Services
-  
-  (c) Cleanliness
-  
-  (d) Ease of online booking
-  
-  (e) Food & Drink
-  
-  (f) In-flight Entertainment
-
-  (g) In-flight Service
-  
-  (h) In-flight wifi service
-  
-  (i) Leg Room service
-  
-  (j) On-board service
-  
-  (k) Online boarding
-  
-  (l) Seat comfort
-  
-  (m) Departure & arrival time convenience
-  
-In our dataset, Some parameters were assigned value 0, representing those parameters are not applicable for some customers.
-
-All these values have been ignored while calculating average rating for each of the parameters mentioned above.
-
-- Step 12 : In the report view, under the insert tab, two text boxes were added to the canvas, in one of them name of the airlines was mentioned & in the other one company's tagline was written.
-- Step 13 : In the report view, under the insert tab, using shapes option from elements group a rectangle was inserted & similarly using image option company's logo was added to the report design area. 
-- Step 14 : Calculated column was created in which, customers were grouped into various age groups.
-
-for creating new column following DAX expression was written;
-       
-        Age Group = 
-        
-        if(airline_passenger_satisfaction[Age]<=25, "0-25 (25 included)",
-        
-        if(airline_passenger_satisfaction[Age]<=50, "25-50 (50 included)",
-        
-        if(airline_passenger_satisfaction[Age]<=75, "50-75 (75 included)",
-        
-        "75-100 (100 included)")))
-        
-Snap of new calculated column ,
+- Step 10 : I have created bar charts, line charts, funnel charts, donut charts and map to visually represent our dataset in the report.
+- Step 11 : In our dataset, certain parameters such as "diverted" and "cancelled" are represented with values of 0 and 1. A value of 1 indicates that the flight was cancelled or diverted, while a value of 0 indicates that it was not.
+- Step 12 : In the report view, under the "Insert" tab, a text box has been added to the canvas with the report title "Flight Delay & Cancellation Report". Additionally, an image related to flight delays and cancellations has been inserted to visually enhance the report.
+- Step 13 : For better navigation between report pages, a page navigator has been added.
+- Step 14 : A hierarchy was created with levels for Country → State → City, and another hierarchy for Year → Month → Day.
 
 ![Snap_1](https://user-images.githubusercontent.com/102996550/174089602-ab834a6b-62ce-4b62-8922-a1d241ec240e.jpg)
 
