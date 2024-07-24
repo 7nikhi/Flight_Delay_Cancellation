@@ -54,22 +54,22 @@ A card visual was used to represent count of flights.
 ![Total Flights](https://github.com/user-attachments/assets/d43238e0-83b6-4c34-8129-201bf2ba7542)
 
         
- - Step 16 : New measure was created to find  % of customers,
+ - Step 16 : New measure was created to find Average Arrival Delay.
  
- Following DAX expression was written to find % of customers,
+ Following DAX expression was written to find Avg Arrival Delay,
  
-         % Customers = (DIVIDE(airline_passenger_satisfaction[Count of Customers], 129880)*100)
+         Avg Arrival Delay = AVERAGE(flights[ARRIVAL_DELAY])
  
- A card visual was used to represent this perecntage.
+ A card visual was used to represent this number.
  
- Snap of % of customers who preferred business class
+ Snap of Average Arrival Delay
  
  ![Snap_Percentage](https://user-images.githubusercontent.com/102996550/174090653-da02feb4-4775-4a95-affb-a211ca985d07.jpg)
 
  
- - Step 17 : New measure was created to calculate total distance travelled by flights & a card visual was used to represent total distance.
+ - Step 17 : New measure was created to find Average Departure Delay.
  
- Following DAX expression was written to find total distance,
+ Following DAX expression was written to find Avg Departure Delay,
  
          Total Distance Travelled = SUM(airline_passenger_satisfaction[Flight Distance])
     
