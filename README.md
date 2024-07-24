@@ -43,15 +43,11 @@ Also since the average arrival delay is approximately 5 minutes & departure is a
 - Step 12 : In the report view, under the "Insert" tab, a text box has been added to the canvas with the report title "Flight Delay & Cancellation Report". Additionally, an image related to flight delays and cancellations has been inserted to visually enhance the report.
 - Step 13 : For better navigation between report pages, a page navigator has been added.
 - Step 14 : A hierarchy was created with levels for Country → State → City, and another hierarchy for Year → Month → Day.
-
-![Snap_1](https://user-images.githubusercontent.com/102996550/174089602-ab834a6b-62ce-4b62-8922-a1d241ec240e.jpg)
-
-        
-- Step 15 : New measure was created to find total count of customers.
+- Step 15 : New measure was created to find total flights.
 
 Following DAX expression was written for the same,
         
-        Count of Customers = COUNT(airline_passenger_satisfaction[ID])
+        Total Flights = COUNTROWS(flights)
         
 A card visual was used to represent count of customers.
 
