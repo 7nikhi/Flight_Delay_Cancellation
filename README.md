@@ -51,7 +51,7 @@ Following DAX expression was written for the same,
         
 A card visual was used to represent count of flights.
 
-![Snap_Count](https://user-images.githubusercontent.com/102996550/174090154-424dc1a4-3ff7-41f8-9617-17a2fb205825.jpg)
+![Total Flights](https://github.com/user-attachments/assets/d43238e0-83b6-4c34-8129-201bf2ba7542)
 
         
  - Step 16 : New measure was created to find  % of customers,
