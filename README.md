@@ -49,7 +49,7 @@ Following DAX expression was written for the same,
         
         Total Flights = COUNTROWS(flights)
         
-A card visual was used to represent count of customers.
+A card visual was used to represent count of flights.
 
 ![Snap_Count](https://user-images.githubusercontent.com/102996550/174090154-424dc1a4-3ff7-41f8-9617-17a2fb205825.jpg)
 
