@@ -132,11 +132,11 @@ Following DAX expression was written for the same,
 
 # Insights
 
-A single page report was created on Power BI Desktop & it was then published to Power BI Service.
+A report was created on Power BI Desktop & it was then published to Power BI Service.
 
-Following inferences can be drawn from the dashboard;
+Following inferences can be drawn from the report;
 
-### [1] Total Number of Customers = 129880
+### [1] Total Number of Flights = 5000000
 
    Number of satisfied Customers (Male) = 28159 (21.68 %)
 
@@ -165,11 +165,11 @@ Following inferences can be drawn from the dashboard;
     l) Seat comfort - 3.44/5
     m) Departure & arrival convenience - 3.22/5
   
-  while calculating average rating, null values have been ignored as they were not relevant for some customers. 
+  while calculating average rating, null values have been ignored as they were not relevant for some customers.
   
-  These ratings will change if different visual filters will be applied.  
+  These ratings will change if different visual filters will be applied.
   
-  ### [3] Average Delay 
+  ### [3] Average Delay
   
       a) Average delay in arrival(minutes) - 15.09
       b) Average delay in departure(minutes) - 14.71
