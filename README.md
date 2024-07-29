@@ -138,16 +138,13 @@ Following inferences can be drawn from the report;
 
 ### [1] Total Number of Flights = 5000000
 
-   Number of satisfied Customers (Male) = 28159 (21.68 %)
+   6 Airline have Departure Delay more than Average Departure Delay.
 
-   Number of satisfied Customers (Female) = 28269 (21.76 %)
+   7 Airline have Arrival Delay more than Average Arrival Delay.
 
-   Number of neutral/unsatisfied customers (Male) = 35822 (27.58 %)
+   172 Airport have Departure Delay more than Average Departure Delay.
 
-   Number of neutral/unsatisfied customers (Female) = 37630 (28.97 %)
-
-
-           thus, higher number of customers are neutral/unsatisfied.
+   170 Airport have Arrival Delay more than Average Arrival Delay.
            
 ### [2] Average Ratings
 
