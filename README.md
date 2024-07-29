@@ -169,6 +169,18 @@ Average delay will change if different visual filters will be applied.
 
       Cancellation rate is 1.4% of all flights.
  
+# Snapshot of Report 
 
+           Delay
+           
+           ![Airline Delay](https://github.com/user-attachments/assets/34a44597-ad68-4a70-8dcf-43b808b36d4b)
+
+           Cancellation
+
+           ![Airline Cancellation](https://github.com/user-attachments/assets/4e4627ab-ffeb-4f5d-9a51-689a10274c1f)
+
+           Delay/Cancellation using Map
+
+           ![Airline Delay_Cancellation](https://github.com/user-attachments/assets/64b8e584-fce1-44bd-94d9-b969b7e0b558)
 
 
