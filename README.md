@@ -24,19 +24,19 @@ Also since the average arrival delay is approximately 5 minutes & departure is a
 - Step 9 : Visual filters (Slicers) were added for four fields named "Country", "State", "City", "Airline" & "Airport".
 - Step 10 : Six card visuals have been added to the canvas, each highlighting crucial metrics for airlines and airports:
 
-Total Flights: Shows the total number of flights recorded.
+  Total Flights: Shows the total number of flights recorded.
 
-Average Departure Delay (Minutes): Displays the average delay in minutes for departures.
+  Average Departure Delay (Minutes): Displays the average delay in minutes for departures.
 
-Average Arrival Delay (Minutes): Indicates the average delay in minutes for arrivals.
+  Average Arrival Delay (Minutes): Indicates the average delay in minutes for arrivals.
 
-Percentage of Arrival Delay: Represents the percentage of flights that experience arrival delays.
+  Percentage of Arrival Delay: Represents the percentage of flights that experience arrival delays.
 
-Percentage of Departure Delay: Shows the percentage of flights that experience departure delays.
+  Percentage of Departure Delay: Shows the percentage of flights that experience departure delays.
 
-Cancellation Rate: Displays the rate of flight cancellations as a percentage of total flights scheduled.
+  Cancellation Rate: Displays the rate of flight cancellations as a percentage of total flights scheduled.
 
-These card visuals provide a quick snapshot of key performance indicators, allowing users to swiftly assess performance, identify trends, and make data-driven decisions to improve operational efficiency and passenger satisfaction.
+  These card visuals provide a quick snapshot of key performance indicators, allowing users to swiftly assess performance, identify trends, and make data-driven decisions to improve operational efficiency and passenger satisfaction.
 
 - Step 10 : I have created bar charts, line charts, funnel charts, donut charts and map to visually represent our dataset in the report.
 - Step 11 : In our dataset, certain parameters such as "diverted" and "cancelled" are represented with values of 0 and 1. A value of 1 indicates that the flight was cancelled or diverted, while a value of 0 indicates that it was not.
