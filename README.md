@@ -60,9 +60,7 @@ A card visual was used to represent count of flights.
  
          Avg Arrival Delay = AVERAGE(flights[ARRIVAL_DELAY])
  
- A card visual was used to represent this number.
- 
- Snap of Average Arrival Delay
+ A card visual was used to represent Average Arrival Delay.
  
  ![Snap_Percentage](https://user-images.githubusercontent.com/102996550/174090653-da02feb4-4775-4a95-affb-a211ca985d07.jpg)
 
@@ -71,14 +69,54 @@ A card visual was used to represent count of flights.
  
  Following DAX expression was written to find Avg Departure Delay,
  
-         Total Distance Travelled = SUM(airline_passenger_satisfaction[Flight Distance])
-    
- A card visual was used to represent this total distance.
+         Avg Departure Delay = AVERAGE(flights[DEPARTURE_DELAY])
+         
+ A card visual was used to represent Average Departure Delay.
  
+ ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
+
+
+  - Step 18 : New measure was created to find Percentage of Arrival Delay.
+ 
+ Following DAX expression was written to find No. of Arrival Delay,
+ 
+         No. of Arrival Delay = COUNTROWS(FILTER(flights, flights[ARRIVAL_DELAY] > 0))
+
+ Following DAX expression was written to find Percentage of Arrival Delay,
+ 
+         Percentage of Arrival Delay = CALCULATE([No. of Arrival Delay]/[Total Flights])
+         
+ A card visual was used to represent Percentage of Arrival Delay.
+ 
+ ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
+
+
+  - Step 19 : New measure was created to find Percentage of Departure Delay.
+ 
+ Following DAX expression was written to find No. of Departure Delay,
+ 
+         No. of Departure Delay = COUNTROWS(FILTER(flights, flights[DEPARTURE_DELAY] > 0))
+
+ Following DAX expression was written to find Percentage of Departure Delay,
+ 
+         Percentage of Departure Delay = CALCULATE([No. of Departure Delay]/[Total Flights])
+         
+ A card visual was used to represent Percentage of Departure Delay.
+ 
+ ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
+
+ 
+   - Step 20 : New measure was created to find Cancellation Rate.
+ 
+ Following DAX expression was written to find Cancellation Rate,
+ 
+         Cancellation Rate = DIVIDE(CALCULATE(COUNTROWS(flights), flights[CANCELLED] = 1), COUNTROWS(flights))
+         
+ A card visual was used to represent Cancellation Rate.
  
  ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
  
- - Step 18 : The report was then published to Power BI Service.
+ - Step 21 : The report was then published to Power BI Service.
  
  
 ![Publish_Message](https://user-images.githubusercontent.com/102996550/174094520-3a845196-97e6-4d44-8760-34a64abc3e77.jpg)
