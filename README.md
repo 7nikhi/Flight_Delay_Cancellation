@@ -49,9 +49,9 @@ Following DAX expression was written for the same,
         
         Total Flights = COUNTROWS(flights)
         
-A card visual was used to represent count of flights.
+ A card visual was used to represent count of flights.
 
-![Total Flights](https://github.com/user-attachments/assets/d43238e0-83b6-4c34-8129-201bf2ba7542)
+ ![Total Flights](https://github.com/user-attachments/assets/d43238e0-83b6-4c34-8129-201bf2ba7542)
 
         
  - Step 16 : New measure was created to find Average Arrival Delay.
@@ -62,7 +62,7 @@ A card visual was used to represent count of flights.
  
  A card visual was used to represent Average Arrival Delay.
  
- ![Snap_Percentage](https://user-images.githubusercontent.com/102996550/174090653-da02feb4-4775-4a95-affb-a211ca985d07.jpg)
+ ![Avg Arrival Dealy](https://github.com/user-attachments/assets/e5a36ce8-2ef0-47e2-9db4-41838cc501ed)
 
  
  - Step 17 : New measure was created to find Average Departure Delay.
@@ -73,7 +73,7 @@ A card visual was used to represent count of flights.
          
  A card visual was used to represent Average Departure Delay.
  
- ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
+ ![Avg Departure Delay](https://github.com/user-attachments/assets/7fe021d9-75cc-43ee-aeb0-519d0e1a980d)
 
 
   - Step 18 : New measure was created to find Percentage of Arrival Delay.
@@ -88,7 +88,7 @@ A card visual was used to represent count of flights.
          
  A card visual was used to represent Percentage of Arrival Delay.
  
- ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
+ ![Percentage of arrival delay](https://github.com/user-attachments/assets/fc5723a0-9ce1-4af7-a44b-9bda06b3b7e4)
 
 
   - Step 19 : New measure was created to find Percentage of Departure Delay.
@@ -103,7 +103,7 @@ A card visual was used to represent count of flights.
          
  A card visual was used to represent Percentage of Departure Delay.
  
- ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
+ ![Percentage of departure delay](https://github.com/user-attachments/assets/a267fea4-4d4a-4c5a-881d-2e01d5b6b90f)
 
  
    - Step 20 : New measure was created to find Cancellation Rate.
@@ -114,7 +114,7 @@ A card visual was used to represent count of flights.
          
  A card visual was used to represent Cancellation Rate.
  
- ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
+ ![Cancellation Rate](https://github.com/user-attachments/assets/376c9529-7dd5-40ff-a5da-7fd14e5af18c)
  
  - Step 21 : The report was then published to Power BI Service.
  
