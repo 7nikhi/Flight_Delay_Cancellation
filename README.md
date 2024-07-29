@@ -123,12 +123,12 @@ Following DAX expression was written for the same,
 
 # Snapshot of Dashboard (Power BI Service)
 
-![Airline Delay](https://github.com/user-attachments/assets/83963fd8-35db-4dc5-9fc6-3354a69cea07)
+![Airline Power BI Service](https://github.com/user-attachments/assets/9eb34657-e317-4324-8213-17deeb0b1a60)
 
  
  # Report Snapshot (Power BI DESKTOP)
 
-![Airline Cancellation](https://github.com/user-attachments/assets/7cdb94c1-724b-4711-97cf-da255cf99e30)
+![Airline Power BI Desktop](https://github.com/user-attachments/assets/78795a5d-16cc-401c-a6b8-27b972c79189)
 
 # Insights
 
